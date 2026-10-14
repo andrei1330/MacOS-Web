@@ -152,8 +152,8 @@ export default function FaceTime({ windowId }) {
       bgDark: "bg-sky-900/20 hover:bg-sky-900/40"
     },
     {
-      id: "2",
-      name: " ",
+      id: "luca",
+      name: "Luca",
       avatar: "/icons/PngItem_4409921.png",
       sub: " ",
       type: "audio",
@@ -162,8 +162,8 @@ export default function FaceTime({ windowId }) {
       bgDark: "bg-emerald-900/15 hover:bg-emerald-900/35"
     },
     {
-      id: "luca",
-      name: "Luca",
+      id: "sophia",
+      name: "Sophia",
       avatar: "/icons/PngItem_6304991.png",
       sub: " ",
       type: "audio",
@@ -172,8 +172,8 @@ export default function FaceTime({ windowId }) {
       bgDark: "bg-zinc-800/45 hover:bg-zinc-800/65"
     },
     {
-      id: "sohia",
-      name: "Sophia",
+      id: "edi",
+      name: "Edi",
       avatar: "/icons/PngItem_6452863.png",
       sub: " ",
       type: "video",
