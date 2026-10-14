@@ -68,22 +68,116 @@ const TrafficLights = ({ windowId }) => {
 
 const defaultContacts = [
   {
-      },
-  {
-     },
-  {
-     },
-  {
-      },
-  {  },
-  {
-    
+    id: "rdu",
+    firstName: "Radu",
+    lastName: " ",
+    avatar: "/icons/PngItem_6452863.png",
+    avatarBg: "bg-orange-100 dark:bg-orange-950/40",
+    gradient: "from-[#ff9f0a]/80 to-[#ff3b30]/80",
+    phone: "unknown",
+    email: "unknown",
+    workEmail: "unknown",
+    address: "idk",
+    birthday: "idk",
+    notes: " the cucurellao"
   },
   {
-    
+    id: "luca",
+    firstName: "Luca",
+    lastName: " ",
+    avatar: "/icons/PngItem_5031003.png",
+    avatarBg: "bg-emerald-100 dark:bg-emerald-950/40",
+    gradient: "from-[#30d158]/80 to-[#116928]/80",
+    phone: "unknown",
+    email: "unknown",
+    workEmail: "unknown",
+    address: "idk",
+    birthday: "idk",
+    notes: "good boy"
   },
   {
-    
+    id: "darius",
+    firstName: "Darius",
+    lastName: " ",
+    avatar: "/icons/PngItem_4409921.png",
+    avatarBg: "bg-purple-100 dark:bg-purple-950/40",
+    gradient: "from-[#bf5af2]/80 to-[#5e5ce6]/80",
+    phone: "unknown",
+    email: "unknown",
+    workEmail: "unknown",
+    address: "idk",
+    birthday: "idk",
+    notes: "good boy"
+  },
+  {
+    id: "stefan",
+    firstName: "Stefan",
+    lastName: " ",
+    avatar: "/icons/PngItem_4608119.png",
+    avatarBg: "bg-sky-100 dark:bg-sky-950/40",
+    gradient: "from-[#0a84ff]/80 to-[#0040dd]/80",
+    phone: "unknown",
+    email: "unknown",
+    workEmail: "unknown",
+    address: "idk",
+    birthday: "idk",
+    notes: "good boy!!!"
+  },
+  {
+    id: "noah",
+    firstName: "Noah",
+    lastName: " ",
+    avatar: "/icons/PngItem_4082636.png",
+    avatarBg: "bg-pink-100 dark:bg-pink-950/40",
+    gradient: "from-[#e46e88] to-[#993b50]",
+    phone: "unknown",
+    email: "unknown",
+    workEmail: "unknown",
+    address: "idk",
+    birthday: "idk",
+    notes: "good boy"
+  },
+  {
+    id: "pvl",
+    firstName: "Pavel",
+    lastName: " ",
+    avatar: "/icons/PngItem_5031003.png",
+    avatarBg: "bg-blue-100 dark:bg-blue-950/40",
+    gradient: "from-[#64d2ff]/80 to-[#0a84ff]/80",
+    phone: "unknown",
+    email: "unknown",
+    workEmail: "unknown",
+    address: "idk",
+    birthday: "in autum",
+    notes: " such a good boy!"
+  },
+  {
+    id: "stefi",
+    firstName: "Stefi",
+    lastName: " ",
+    avatar: "/icons/PngItem_4608119.png",
+    avatarBg: "bg-rose-100 dark:bg-rose-950/40",
+    gradient: "from-[#ff6482]/80 to-[#ff2d55]/80",
+    phone: "unknown",
+    email: "unknown",
+    workEmail: "unknown",
+    address: "unknown",
+    birthday: "in 2013",
+    notes: " "
+  },
+  {
+    id: "victoria",
+    firstName: "Victoria",
+    lastName: " ",
+    avatar: "/icons/PngItem_4082636.png",
+    avatarBg: "bg-amber-100 dark:bg-amber-950/40",
+    gradient: "from-[#ffd60a]/80 to-[#ff9f0a]/80",
+    phone: "unknown",
+    email: "unknown",
+    workEmail: "unknown",
+    address: "in this universew",
+    birthday: "Oct 08",
+    notes: "Monstera layout planner."
   }
 ];
 
