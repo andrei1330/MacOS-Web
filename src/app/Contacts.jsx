@@ -68,7 +68,7 @@ const TrafficLights = ({ windowId }) => {
 
 const defaultContacts = [
   {
-    id: "rdu",
+    id: "antonio",
     firstName: "Radu",
     lastName: " ",
     avatar: "/icons/PngItem_6452863.png",
@@ -82,7 +82,7 @@ const defaultContacts = [
     notes: " the cucurellao"
   },
   {
-    id: "luca",
+    id: "magico",
     firstName: "Luca",
     lastName: " ",
     avatar: "/icons/PngItem_5031003.png",
@@ -96,7 +96,7 @@ const defaultContacts = [
     notes: "good boy"
   },
   {
-    id: "darius",
+    id: "graham",
     firstName: "Darius",
     lastName: " ",
     avatar: "/icons/PngItem_4409921.png",
@@ -110,7 +110,7 @@ const defaultContacts = [
     notes: "good boy"
   },
   {
-    id: "stefan",
+    id: "jay",
     firstName: "Stefan",
     lastName: " ",
     avatar: "/icons/PngItem_4608119.png",
@@ -124,7 +124,7 @@ const defaultContacts = [
     notes: "good boy!!!"
   },
   {
-    id: "noah",
+    id: "sarah",
     firstName: "Noah",
     lastName: " ",
     avatar: "/icons/PngItem_4082636.png",
@@ -138,7 +138,7 @@ const defaultContacts = [
     notes: "good boy"
   },
   {
-    id: "pvl",
+    id: "rayan",
     firstName: "Pavel",
     lastName: " ",
     avatar: "/icons/PngItem_5031003.png",
@@ -152,7 +152,7 @@ const defaultContacts = [
     notes: " such a good boy!"
   },
   {
-    id: "stefi",
+    id: "aga",
     firstName: "Stefi",
     lastName: " ",
     avatar: "/icons/PngItem_4608119.png",
@@ -166,7 +166,7 @@ const defaultContacts = [
     notes: " "
   },
   {
-    id: "victoria",
+    id: "mayuri",
     firstName: "Victoria",
     lastName: " ",
     avatar: "/icons/PngItem_4082636.png",
