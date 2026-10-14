@@ -123,7 +123,7 @@ export default function FaceTime({ windowId }) {
   const contacts = [
     {
       id: "trev",
-      name: "Trev",
+      name: "Suzi",
       avatar: "/icons/PngItem_5031003.png",
       sub: "Suggested",
       type: "audio",
@@ -132,18 +132,18 @@ export default function FaceTime({ windowId }) {
       bgDark: "bg-slate-800/45 hover:bg-slate-800/65"
     },
     {
-      id: "support",
-      name: "Support",
+      id: "razvi",
+      name: "Razvan",
       avatar: "/icons/PngItem_4082636.png",
-      sub: "Tech support",
+      sub: "good boy!",
       type: "video",
       avatarBg: "#f5c7c7",
       bgLight: "bg-rose-200/40 hover:bg-rose-200/60",
       bgDark: "bg-rose-900/20 hover:bg-rose-900/40"
     },
     {
-      id: "Appleinc",
-      name: "Apple inc.",
+      id: "victroia",
+      name: "Victoria",
       avatar: "/icons/PngItem_4608119.png",
       sub: "Video 9:20 AM",
       type: "video",
@@ -162,8 +162,8 @@ export default function FaceTime({ windowId }) {
       bgDark: "bg-emerald-900/15 hover:bg-emerald-900/35"
     },
     {
-      id: "w",
-      name: " ",
+      id: "luca",
+      name: "Luca",
       avatar: "/icons/PngItem_6304991.png",
       sub: " ",
       type: "audio",
@@ -172,8 +172,8 @@ export default function FaceTime({ windowId }) {
       bgDark: "bg-zinc-800/45 hover:bg-zinc-800/65"
     },
     {
-      id: "3",
-      name: " ",
+      id: "sohia",
+      name: "Sophia",
       avatar: "/icons/PngItem_6452863.png",
       sub: " ",
       type: "video",
