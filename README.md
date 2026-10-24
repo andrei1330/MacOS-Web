@@ -18,7 +18,9 @@ A fully interactive macOS-style web simulator built with React — complete with
 - **Top Bar** — Dynamic app title, Apple menu with lock/sleep/shutdown, dropdown menus, live clock
 - **Finder** — Simulated file system with Downloads, Desktop, Documents, and Pictures folders; grid/list view
 - **Safari** — Built-in browser with navigation controls
-- **Terminal** — Functional terminal emulator
+- **Terminal** — Browser-only shell simulation with safe built-in commands, command history, and virtual folders
+- **Calculator** — macOS-style calculator with keyboard input and basic arithmetic
+- **Clock** — World clocks, stopwatch, and countdown timer
 - **Photos / Gallery** — Image gallery with wallpaper setting support
 - **Notes** — Apple Notes-style app with iCloud folders, tags, search, and a full editor; auto-saves to localStorage
 - **Music / Spotify** — Spotify-integrated music player
@@ -103,7 +105,9 @@ src/
 ├── app/                  # Individual macOS apps
 │   ├── Finder.jsx        # File manager
 │   ├── Safari.jsx        # Web browser
-│   ├── Terminal.jsx      # Terminal emulator
+│   ├── Terminal.jsx      # Safe, simulated shell
+│   ├── Calculator.jsx    # Keyboard-enabled calculator
+│   ├── Clock.jsx         # World clock, stopwatch, and timer
 │   ├── Spotify.jsx       # Music player
 │   ├── Gallary.jsx       # Photo gallery
 │   ├── Settings.jsx      # System settings
