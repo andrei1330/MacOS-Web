@@ -26,8 +26,34 @@ export default function AppWindow({ window: win }) {
   const isPhone = win.appId === "Phone";
   const isContacts = win.appId === "Contacts";
   const isReminders = win.appId === "Reminders";
-  const initialWidth = (isMail || isMaps || isFaceTime) ? screenWidth * 0.65 : (isMessages || isFinder || isPhone || isContacts || isReminders) ? screenWidth * 0.55 : isLaunchpad ? screenWidth * 0.45 : screenWidth * 0.7;
-  const initialHeight = (isMessages || isFinder || isMail || isMaps || isFaceTime || isPhone || isContacts || isReminders) ? screenHeight * 0.72 : isLaunchpad ? screenHeight * 0.65 : screenHeight * 0.76;
+  const isTerminal = win.appId === "Terminal";
+  const isCalculator = win.appId === "Calculator";
+  const isClock = win.appId === "Clock";
+  const safeWindowWidth = Math.max(300, screenWidth - 24);
+  const initialWidth = isCalculator
+    ? Math.min(380, safeWindowWidth)
+    : isClock
+      ? Math.min(720, screenWidth * 0.68)
+      : isTerminal
+        ? Math.min(900, screenWidth * 0.72)
+        : (isMail || isMaps || isFaceTime)
+          ? screenWidth * 0.65
+          : (isMessages || isFinder || isPhone || isContacts || isReminders)
+            ? screenWidth * 0.55
+            : isLaunchpad
+              ? screenWidth * 0.45
+              : screenWidth * 0.7;
+  const initialHeight = isCalculator
+    ? Math.min(620, screenHeight * 0.78)
+    : isClock
+      ? screenHeight * 0.7
+      : isTerminal
+        ? screenHeight * 0.64
+        : (isMessages || isFinder || isMail || isMaps || isFaceTime || isPhone || isContacts || isReminders)
+          ? screenHeight * 0.72
+          : isLaunchpad
+            ? screenHeight * 0.65
+            : screenHeight * 0.76;
   const initialX = Math.max(50, (screenWidth - initialWidth) / 2);
   const initialY = Math.max(40, (screenHeight - initialHeight) / 2 - 20);
 

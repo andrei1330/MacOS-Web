@@ -16,6 +16,9 @@ import FaceTime from "../app/FaceTime";
 import PhoneApp from "../app/Phone";
 import CalendarApp from "../app/Calendar";
 import RemindersApp from "../app/Reminders";
+import Terminal from "../app/Terminal";
+import Calculator from "../app/Calculator";
+import Clock from "../app/Clock";
 
 import { GlassSurface } from "./ui/glass-surface";
 
@@ -120,6 +123,24 @@ export default function Dock() {
       label: "Launchpad",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Launchpad__MacOS_Tahoe__ncy8MiCAOA_lowResPng-ffd58d03cd.png",
       comp: <Launchpad />,
+    },
+    {
+      id: "Terminal",
+      label: "Terminal",
+      icon: "/icons/terminal.svg",
+      comp: <Terminal />,
+    },
+    {
+      id: "Calculator",
+      label: "Calculator",
+      icon: "/icons/calculator.svg",
+      comp: <Calculator />,
+    },
+    {
+      id: "Clock",
+      label: "Clock",
+      icon: "/icons/clock.svg",
+      comp: <Clock />,
     },
     {
       id: "Safari",

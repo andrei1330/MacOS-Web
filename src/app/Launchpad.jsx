@@ -13,6 +13,12 @@ import PhoneApp from "./Phone";
 import CalendarApp from "./Calendar";
 import ContactsApp from "./Contacts";
 import RemindersApp from "./Reminders";
+import MessagesApp from "./Messages";
+import MailApp from "./Mail";
+import MapsApp from "./Maps";
+import Terminal from "./Terminal";
+import Calculator from "./Calculator";
+import Clock from "./Clock";
 
 // Traffic lights component
 const TrafficLights = ({ windowId }) => {
@@ -78,6 +84,7 @@ export default function Launchpad({ windowId }) {
     productivity: false,
     creativity: false,
     info: false,
+    utilities: false,
   });
 
   const toggleSection = (section) => {
@@ -112,6 +119,24 @@ export default function Launchpad({ windowId }) {
       comp: <Finder />,
     },
     {
+      appId: "Terminal",
+      label: "Terminal",
+      icon: "/icons/terminal.svg",
+      comp: <Terminal />,
+    },
+    {
+      appId: "Calculator",
+      label: "Calculator",
+      icon: "/icons/calculator.svg",
+      comp: <Calculator />,
+    },
+    {
+      appId: "Clock",
+      label: "Clock",
+      icon: "/icons/clock.svg",
+      comp: <Clock />,
+    },
+    {
       appId: "Safari",
       label: "Safari",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Safari__MacOS_Tahoe__utug9Rt8g6_lowResPng-e86f84b6e9.png",
@@ -121,17 +146,19 @@ export default function Launchpad({ windowId }) {
       appId: "Messages",
       label: "Messages",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Messages_macOS_Golden_Gate_ow94O6GAvP-2934473a5d.png",
+      comp: <MessagesApp />,
     },
     {
       appId: "Mail",
       label: "Mail",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Mail_macOS_Golden_Gate_3BIjmD3GZM-ae5977fd03.png",
+      comp: <MailApp />,
     },
     {
       appId: "Maps",
       label: "Maps",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Maps_macOS_Golden_Gate_jOxvDFgSHw-b6ceac8cd4.png",
-      url: "https://maps.apple.com",
+      comp: <MapsApp />,
     },
     {
       appId: "Photos",
@@ -185,31 +212,37 @@ export default function Launchpad({ windowId }) {
       appId: "Podcasts",
       label: "Podcasts",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Podcasts_macOS_Golden_Gate_PLHwgdc3Fl-4abdcae811.png",
+      url: "https://podcasts.apple.com/",
     },
     {
       appId: "TV",
       label: "TV",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_TV_macOS_Golden_Gate_j8weRAj4mw-f0424494f0.png",
+      url: "https://tv.apple.com/",
     },
     {
       appId: "AppStore",
       label: "App Store",
       icon: "https://s3-new.macosicons.com/macosicons/parse/App_Store__MacOS_Tahoe__ZTpqalXxE3_lowResPng-b755fc1237.png",
+      url: "https://apps.apple.com/",
     },
     {
       appId: "Pages",
       label: "Pages",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Pages__Apple_Creative_Studio__hHeqYyTXZ3_lowResPng-7a5fbcd210.png",
+      url: "https://www.icloud.com/pages",
     },
     {
       appId: "Numbers",
       label: "Numbers",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Numbers__Apple_Creative_Studio__pfooNXbNnX_lowResPng-665922f586.png",
+      url: "https://www.icloud.com/numbers",
     },
     {
       appId: "Keynote",
       label: "Keynote",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Keynote__Apple_Creative_Studio__SlTcHVkQP5_lowResPng-aac0878b95.png",
+      url: "https://www.icloud.com/keynote",
     },
     {
       appId: "Settings",
@@ -242,6 +275,13 @@ export default function Launchpad({ windowId }) {
   };
 
   const categories = [
+    {
+      id: "utilities",
+      title: "Utilities",
+      actionLabel: "Show All",
+      actionLabelActive: "Collapse",
+      apps: getAppsByList(["Calculator", "Terminal", "Clock", "Settings", "Finder"]),
+    },
     {
       id: "suggestions",
       title: "Suggestions",
