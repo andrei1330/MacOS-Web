@@ -16,40 +16,40 @@ const OverviewTab = () => (
     {/* System Information */}
     <div className="flex-1 text-sm">
       <h1 className="text-2xl font-normal text-white mb-0.5">macOS Tahoe</h1>
-      <p className="text-white/50 text-xs mb-6">Version 15.2.0 (24C101)</p>
+      <p className="text-white/50 text-xs mb-6">Version 26.2</p>
 
       <div className="space-y-1.5">
         <div className="flex">
-          <span className="text-white/50 w-28">iMac</span>
-          <span className="text-white/90">(Retina 5K, 2019) - iMac19,1</span>
+          <span className="text-white/50 w-28">Mac Pro</span>
+          <span className="text-white/90">(2023)</span>
         </div>
         <div className="flex">
           <span className="text-white/50 w-28">Processor</span>
-          <span className="text-white/90">Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz</span>
+          <span className="text-white/90">M2 Ultra</span>
         </div>
         <div className="flex">
           <span className="text-white/50 w-28">Memory</span>
-          <span className="text-white/90">16 GB DDR4</span>
+          <span className="text-white/90">256 GB DDR4</span>
         </div>
         <div className="flex">
           <span className="text-white/50 w-28">Startup Disk</span>
-          <span className="text-white/90">Sequoia</span>
+          <span className="text-white/90">Macintosh HD</span>
         </div>
         <div className="flex">
           <span className="text-white/50 w-28">Display</span>
-          <span className="text-white/90">ARIRANG (3840 x 2160)</span>
+          <span className="text-white/90">Virtual (3840 x 2160)</span>
         </div>
         <div className="flex">
           <span className="text-white/50 w-28">Graphics</span>
-          <span className="text-white/90">UHD Graphics 630 1536 MB (Metal 3)</span>
+          <span className="text-white/90">Apple M2 Ultra GPU (Metal 3)</span>
         </div>
         <div className="flex">
           <span className="text-white/50 w-28">Serial Number</span>
-          <span className="text-white/90"></span>
+          <span className="text-white/90">A2786</span>
         </div>
         <div className="flex">
           <span className="text-white/50 w-28">Bootloader</span>
-          <span className="text-white/90">OpenCore 1.0.3 (Release)</span>
+          <span className="text-white/90">iBoot (Apple Silicon Secure Boot)</span>
         </div>
       </div>
 
