@@ -152,7 +152,7 @@ const defaultNotes = [
     id: 10,
     title: "Hello, Welcome to Mac",
     subtitle: "1 photo",
-    content: "Welcome to your new macOS simulator! Experience the premium design, fluid animations, and custom integrated applications.",
+    content: " ",
     date: "6/9/26",
     pinned: true,
     folder: "notes",
