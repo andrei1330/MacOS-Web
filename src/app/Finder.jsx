@@ -139,7 +139,7 @@ export default function Finder({ initialPath = "/icloud", windowId, maximized, i
       appId: "Finder",
       name: "Finder.app",
       type: "app",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Finder_Icon_macOS_Big_Sur.png",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Finder_Icon_macOS_Tahoe.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20250922021914",
       comp: <Finder />,
       date: "2026-06-15T10:00:00Z",
       size: 14500000
