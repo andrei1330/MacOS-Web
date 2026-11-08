@@ -36,7 +36,7 @@ const getWindowTitle = (win) => {
 
 const getWindowIcon = (win, apps) => {
   if (win.appId === "Finder") {
-    return "https://upload.wikimedia.org/wikipedia/commons/c/c9/Finder_Icon_macOS_Big_Sur.png";
+    return "https://upload.wikimedia.org/wikipedia/commons/b/b9/Finder_Icon_macOS_Tahoe.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20250922021914";
   }
   if (win.appId === "TextEdit") {
     return "https://s3.macosicons.com/macosicons/icons/aExwB3ULuk/lowResPngFile_a819aac512e7261fee3310f1bbdaada7_aExwB3ULuk.png";
@@ -215,19 +215,19 @@ export default function Dock() {
       id: "Pages",
       label: "Pages",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Pages__Apple_Creative_Studio__hHeqYyTXZ3_lowResPng-7a5fbcd210.png",
-      action: () => {},
+      comp: <Safari />,
     },
     {
       id: "Numbers",
       label: "Numbers",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Numbers__Apple_Creative_Studio__pfooNXbNnX_lowResPng-665922f586.png",
-      action: () => {},
+      comp: <Safari />,
     },
     {
       id: "Keynote",
       label: "Keynote",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Keynote__Apple_Creative_Studio__SlTcHVkQP5_lowResPng-aac0878b95.png",
-      action: () => {},
+      comp: <Safari />,
     },
     {
       id: "Settings",
@@ -240,20 +240,20 @@ export default function Dock() {
       id: "Github",
       label: "GitHub",
       icon: "https://s3-new.macosicons.com/macosicons/parse/GitHub_mm0mJOQEAS_lowResPng-6e5b90d2c7.png",
-      url: "https://github.com/LikhithSP",
+      url: "https://github.com",
     },
     {
       id: "linkedin",
       label: "LinkedIn",
       icon: "https://s3-new.macosicons.com/macosicons/parse/LinkedIn_ZcwY6Altec_lowResPng-59b3305d8f.png",
-      url: "https://www.linkedin.com/in/likhithsp/",
+      url: "https://www.linkedin.com//",
     },
     { divider: true },
     {
       id: "Folder",
       label: "Folder",
       icon: "https://s3-new.macosicons.com/macosicons/parse/MacOS_Default_Folder_icon_GecwaBmkFQ_lowResPng-6d37abc4ac.png",
-      action: () => {},
+      comp: <Finder />,
     },
     {
       id: "Trash",
